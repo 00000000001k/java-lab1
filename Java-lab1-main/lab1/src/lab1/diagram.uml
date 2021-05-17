@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="268.5669642857143" y="465.0">lab1.store.ProductStore</node>
+    <node x="301.5669642857143" y="765.0">lab1.test.TestApp</node>
+    <node x="87.37946428571426" y="710.0">lab1.test.TestByConsole</node>
+    <node x="76.18750000000003" y="0.0">lab1.model.Wood</node>
+    <node x="193.37946428571428" y="991.0">com.company.Main</node>
+    <node x="63.66302910052909" y="454.0">lab1.store.WoodDirectory</node>
+    <node x="229.56696428571425" y="194.0">lab1.model.Timber</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab1.test.TestApp" target="lab1.store.ProductStore">
+      <point x="-12.5" y="-60.5" />
+      <point x="364.0669642857143" y="690.0" />
+      <point x="358.5669642857143" y="690.0" />
+      <point x="18.0" y="72.0" />
+    </edge>
+    <edge source="lab1.test.TestApp" target="lab1.model.Timber">
+      <point x="62.5" y="-60.5" />
+      <point x="439.0669642857143" y="690.0" />
+      <point x="447.6005291005291" y="690.0" />
+      <point x="447.6005291005291" y="424.0" />
+      <point x="435.70982142857144" y="424.0" />
+      <point x="95.14285714285717" y="105.0" />
+    </edge>
+    <edge source="com.company.Main" target="lab1.test.TestApp">
+      <point x="18.75" y="-27.0" />
+      <point x="287.1294642857143" y="961.0" />
+      <point x="339.0669642857143" y="961.0" />
+      <point x="-37.5" y="60.5" />
+    </edge>
+    <edge source="lab1.test.TestByConsole" target="lab1.store.WoodDirectory">
+      <point x="-32.625" y="-115.5" />
+      <point x="141.75446428571428" y="670.0" />
+      <point x="83.41302910052909" y="670.0" />
+      <point x="-59.25" y="83.0" />
+    </edge>
+    <edge source="lab1.store.ProductStore" target="lab1.model.Timber">
+      <point x="-48.0" y="-72.0" />
+      <point x="292.5669642857143" y="434.0" />
+      <point x="308.85267857142856" y="434.0" />
+      <point x="-31.714285714285722" y="105.0" />
+    </edge>
+    <edge source="lab1.test.TestByConsole" target="lab1.store.ProductStore">
+      <point x="54.375" y="-115.5" />
+      <point x="228.75446428571428" y="680.0" />
+      <point x="286.5669642857143" y="680.0" />
+      <point x="-54.0" y="72.0" />
+    </edge>
+    <edge source="lab1.store.WoodDirectory" target="lab1.model.Wood">
+      <point x="52.66666666666666" y="-83.0" />
+      <point x="195.32969576719574" y="434.0" />
+      <point x="174.4963624338624" y="434.0" />
+      <point x="174.4963624338624" y="174.0" />
+      <point x="188.04464285714286" y="174.0" />
+      <point x="24.857142857142833" y="72.0" />
+    </edge>
+    <edge source="lab1.test.TestApp" target="lab1.store.WoodDirectory">
+      <point x="-62.5" y="-60.5" />
+      <point x="314.0669642857143" y="650.0" />
+      <point x="162.4130291005291" y="650.0" />
+      <point x="19.75" y="83.0" />
+    </edge>
+    <edge source="lab1.test.TestByConsole" target="lab1.model.Timber">
+      <point x="10.875" y="-115.5" />
+      <point x="185.25446428571428" y="660.0" />
+      <point x="232.1630291005291" y="660.0" />
+      <point x="232.1630291005291" y="434.0" />
+      <point x="245.4241071428571" y="434.0" />
+      <point x="-95.14285714285714" y="105.0" />
+    </edge>
+    <edge source="lab1.test.TestByConsole" target="lab1.model.Wood">
+      <point x="-54.375" y="-115.5" />
+      <point x="120.00446428571426" y="680.0" />
+      <point x="36.0" y="680.0" />
+      <point x="36.0" y="174.0" />
+      <point x="113.4732142857143" y="174.0" />
+      <point x="-49.71428571428572" y="72.0" />
+    </edge>
+    <edge source="com.company.Main" target="lab1.test.TestByConsole">
+      <point x="-56.25" y="-27.0" />
+      <point x="212.12946428571428" y="971.0" />
+      <point x="130.87946428571428" y="971.0" />
+      <point x="-43.5" y="115.5" />
+    </edge>
+    <edge source="lab1.model.Timber" target="lab1.model.Wood">
+      <point x="-55.5" y="-105.0" />
+      <point x="285.0669642857142" y="174.0" />
+      <point x="212.9017857142857" y="174.0" />
+      <point x="49.714285714285666" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6999999999999996" x="175.0" y="511.0000000000002" />
+  <SelectedNodes>
+    <node>lab1.store.ProductStore</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
